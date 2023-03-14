@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+:root{
+    --lightMint: #AAF0D1;
+    --darkMint: #3EB489;
+    --fontFamily : 'Rufina', serif;
+}
+body{
+    background-color: var(--lightMint);
+    font-family: var(--fontFamily);
+    margin: 0 auto;
+    padding: 10%;
+}
+#container{
+    background-color: var(--darkMint);
+    color: white;
+    margin: 0 auto;
+    height: 70%;
+    width: 90%;
+    padding: 1em;
+    border-radius: 15px;
+    border: 13px solid white;
+    
+}
+h1{
+    text-align: center;
+    font-size: 1.8em;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
