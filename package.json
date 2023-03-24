@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/roseandlily33/allAboutMeGenerator#readme",
   "dependencies": {
+    "ejs": "^3.1.9",
     "inquirer": "^8.2.4"
   }
 }

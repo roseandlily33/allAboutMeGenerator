@@ -1,5 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+const htmlTemplate = require('./htmlTemp');
 
 inquirer.prompt([
     {
@@ -22,8 +23,5 @@ inquirer.prompt([
     }
 ])
 .then((response)=>{
-
-console.log(response.name);
-//Writes the answers to a new file:
-fs.writeFile(`${response.name}.json`, JSON.stringify(response), err => err ? console.log(err): console.log('imported'))
+fs.writeFile(`${response.name}.html`, htmlTemplate(response), err => err ? console.log(err): console.log('imported'))
 });

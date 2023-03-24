@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+
+function htmlTemplate(response) {
+return `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,6 +19,7 @@
         <h3>My Linkdin Profile is: ${response.linkdin}</h3>
     </div>
     </section>
-    
 </body>
-</html>
+</html>` };
+
+module.exports =  htmlTemplate;
