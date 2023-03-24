@@ -8,6 +8,7 @@ What you answer the questions in inquirer it will create a html document with th
 HTML, CSS, JavaScript, Node.js,  & Inquirer
 
 ## Screenshots:
+<img width="934" alt="Screenshot 2023-03-24 at 1 43 29 PM" src="https://user-images.githubusercontent.com/109821108/227588497-e6b5ee50-1906-4f2e-8886-1762a4d48671.png">
 
 ## Usage:
 Git clone the repository 
